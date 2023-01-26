@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(77, 54, 54, 0.75),rgba(77, 36, 36, 0.75)), url("Images/Away.jpg");
+	background-size: cover;
+	background-position: center;
+	}
+	
+.navbar{
+	width: 85%;
+	margin:auto;
+	padding: 35px,0;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	color:#fff;
+}
+
+
+.logo{
+	width: 90px;
+	cursor: pointer;
+}
+
+.navbar ul li{
+	list-style:none;
+	display:inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.navbar ul li::after{
+	content:"";
+	height: 3px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.7s;
+}
+
+.navbar ul li:hover::after{
+	width:100%;
+}
+
+.content{
+	width:85%;
+	position: absolute;
+	top: 10%;
+	transform: translateY(-50%);
+	text-align: center;
+	color:#fff
+}
+
+.displayimg1{
+	height:30%;
+	width:30%;
+	position: absolute;
+	top: 42.5%;
+	transform: translateY(-50%);
+	display: flex;
+    justify-content: space-between;
+}
+
+.displayimg2{
+	height:30%;
+	width:40%;
+	left: 31%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+    justify-content: space-between;
+}
+
+.displayimg3{
+	height:30%;
+	width:30%;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+    justify-content: space-between;
+}
+
+.displayimg4{
+	height:30%;
+	width:30%;
+	position: absolute;
+	top: 50%;
+	left:75%;
+	transform: translateY(-50%);
+	display: flex;
+    justify-content: space-between;
+}
+
+
+.displaycontent{
+	width:5%;
+	position: absolute;
+	top: 80%;
+	transform: translateY(-50%);
+	text-align: center;
+	color:#fff;
+}
+
+
+
+.displayinfo img{
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 300px;
+
+}
+
+.content h1{
+	font-size: 40px;
+	margin-top: 80px;
+}
+
+.content p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 20px;
+}
+button{
+     width: 200px;
+     padding: 15px 0;
+	 text-align:center;
+	 margin: 20 px 10px;
+	 border-radius: 20px;
+	 font-weight:bold;
+	 border: 2px solid #009688;
+	 background: transparent;
+	 color: #fff;
+	 cursor: pointer;
+	 position:relative;
+	 overflow: hidden;
+}
+
+span{
+     background:#009688;
+     height:100%;
+     width: 0;
+     border-radius: 20px;
+     position: absolute;
+     left: 0;
+     bottom: 0;
+	 z-index: -1;
+	 transition: 0.7s;
+}	 
+
+button:hover span{
+	width: 100%;
+	
+}
+
+button:hover{
+	border:none;
+}
+
+
+	
+
+	
+
+
+	

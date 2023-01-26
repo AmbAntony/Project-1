@@ -1,0 +1,39 @@
+{
+    "houses": [
+      {
+        "id": "1",
+        "amount": "Sh 280,000",
+        "description": "A four Bedroomed mansionnette",
+        "location": "Kitusuru, Ugandata",
+        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      },
+      {
+        "id": "1",
+        "amount": "Sh 120,000",
+        "description": "A Three Bedroomed mansionnette",
+        "location": "Bellea, Ugandata",
+        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      },
+      {
+        "id": "1",
+        "amount": "Sh 60,000",
+        "description": "A Two Bedroomed apartment",
+        "location": "Danine Estate, Ugandata",
+        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      },
+      {
+        "id": "1",
+        "amount": "Sh 30,000",
+        "description": "A One Bedroomed apartment",
+        "location": "Kariakoo, Ugandata",
+        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      },
+      {
+        "id": "1",
+        "amount": "Sh 220,000",
+        "description": "A five Bedroomed villa with pool",
+        "location": "Garden City, Ugandata",
+        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      }
+    ]
+  }
